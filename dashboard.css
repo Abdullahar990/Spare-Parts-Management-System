@@ -1,0 +1,213 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#dashboardMainContainer{
+    display:flex;
+    flex-direction: row;
+}
+div.dashboard_sidebar{
+    width: 20%;
+    background: #323232;
+    height: 100%;
+}
+div.dashboard_content_container{
+    width: 80%;
+    background: #f4f6f9;
+
+}
+h3.dashboard_logo{
+    color: #03fc03;
+    font-size: 80px;
+    text-align: center;
+}
+div.dashboard_sidebar_user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    
+}
+div.dashboard_sidebar_user span{
+font-size: 20px;
+top: 20%;
+text-transform: uppercase;
+color: #fff;
+display: inline-block;
+}
+ul.dashboard_menu_lists{
+    margin-top: 20px;
+}
+ul.dashboard_menu_lists li{
+padding: 15px 15px;
+text-transform: uppercase;
+}
+ul.dashboard_menu_lists li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+    display: block;
+
+}
+ul.dashboard_menu_lists li a i{
+font-size: 25px;
+}
+ul.dashboard_menu_lists li.menuActive{
+    background:#03fc03;
+    color:#fff;
+}
+ul.dashboard_menu_lists li:hover{
+background:#03fc03;
+color: #fff;
+transition: 0.3s all;
+}
+div.dashboard_topNav{
+    background: #fff;
+    padding: 20px;
+}
+div.dashboard_topNav a{
+    color: #848383;
+    font-size: 18px;
+    text-decoration: none;
+}
+a#logoutBtn{
+    float:right;
+}
+div.dashboard_content{
+    padding: 50px 10px 10px 10px;
+}
+div.dashboard_content_main{
+    background: #fff;
+    height: 100%;
+    min-height: 800px;
+
+}
+.orderProductBtn{
+    background:#03fc03;
+    color:#fff;
+}
+.orderProductBtn{
+    height:33px;
+    border: none;
+    padding : 2px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.submitOrderProductBtn{
+background:#323232;
+color:#fff;
+font-size: 13px;
+padding: 8px 9px
+}
+.marginTop20{
+    margin-top: 20px;
+}
+.alignRight{
+    text-align:right;
+}
+.alignLeft{
+    text-align:left;
+}
+
+#orderProductLists{
+    margin-top:20px;
+}
+.productNameSelect{
+    font-size:15px;
+    border:none;
+    background:#fafafa;
+    padding:3px 17px;
+    border:1px solid #b0b0b0;
+    border-radius: 2px;
+}
+div.orderProductRow{
+    padding:6px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 25px;
+    padding-top:25px;
+}
+.orderProductQty{
+    height:27px;
+    border:none;
+    background:#f8f8f8;
+    text-indent:10px;
+    border: 1px solid #d6d6d6;
+    border-radius:2px;
+}
+#orderProductLists.row{
+    margin: 0px !important;
+}
+.suppliersRows.supplierName{
+    margin-left: 12px;
+    font-size:15px;
+    font-weight:bold;
+    color: #a1a1a1;
+    text-transform: uppercase;
+}
+.supplierRows.row{
+    padding: 8px 0px;
+}
+.appbtn{
+    border:none;
+    padding:4px 8px;
+    background:#ff5858;
+    border-radius: 2px;
+}
+.removeOrderBtn{
+    background:#ff5858;
+    color:snow;
+    float:right;
+}
+.poList{
+    margin-bottom: 25px;
+    padding:15px;
+    border-bottom:solid 1px #d1d1d1;
+    border-radius:5px;
+    background: #fbfbfb;
+}
+.poList p{
+    font-weight: bold;
+    text-transform:uppercase;
+    color:#03fc03;
+    font-size: 16px;
+}
+.poList table td,.poList table th{
+    border:none;
+    border-bottom:1px dotted #b7b7b7;
+}
+.poList table td{
+    padding : 13px 14px;
+    font-size:13px;
+}
+.poList table{
+    border:none;
+}
+.poOrderUpdateBtnContainer{
+    margin-top: 20px;
+}
+.updatePoBtn{
+    color:#03fc03;
+    background:#fff;
+    border: 1px solid #03fc03;
+}
+.updatePoBtn:hover{
+    color: #fff;
+    background:#03fc03;
+}
+.po-badge{
+    padding:4px 6px;
+    border: 1px solid;
+}
+.po-badge-pending{
+    background: #03fc03;
+    border-color: #556455;
+}
+.po-badge-complete{
+    background: #b5ebb5;
+    border-color: black;
+}
+.po-badge-incomplete{
+    background: #f7e640;
+    border-color: #a3a3a3;
+    color: #392b2b
+}
